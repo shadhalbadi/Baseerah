@@ -1,0 +1,152 @@
+{
+  "app": {
+    "name": "Baseerah",
+    "tagline": "See where your water & electricity go"
+  },
+  "common": {
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "logout": "Log out",
+    "language": "العربية",
+    "optional": "optional",
+    "back": "Back"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "registerTitle": "Create your account",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "loginButton": "Log in",
+    "registerButton": "Sign up",
+    "toRegister": "New here? Create an account",
+    "toLogin": "Already have an account? Log in",
+    "invalidCredentials": "Incorrect email or password",
+    "emailTaken": "That email is already registered",
+    "passwordHint": "At least 8 characters"
+  },
+  "properties": {
+    "title": "Your properties",
+    "add": "Add property",
+    "name": "Property name",
+    "type": "Type",
+    "region": "Region",
+    "occupants": "Occupants",
+    "sizeSqm": "Size (m²)",
+    "empty": "No properties yet. Add one to get started.",
+    "open": "Open",
+    "types": {
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "office": "Office",
+      "shop": "Shop",
+      "other": "Other"
+    }
+  },
+  "bills": {
+    "title": "Bills",
+    "add": "Add bill",
+    "utility": "Utility",
+    "water": "Water",
+    "electricity": "Electricity",
+    "periodStart": "Period start",
+    "periodEnd": "Period end",
+    "consumption": "Consumption",
+    "cost": "Cost",
+    "currency": "Currency",
+    "empty": "No bills yet for this property.",
+    "added": "Bill added"
+  },
+  "analysis": {
+    "title": "Analysis",
+    "run": "Analyze",
+    "utilityToAnalyze": "Utility to analyze",
+    "noBills": "Add some bills first to run an analysis.",
+    "baseline": "Baseline",
+    "mean": "Average",
+    "samples": "based on {{count}} prior bills",
+    "latest": "Latest period",
+    "status": {
+      "insufficient_data": "Not enough data",
+      "normal": "Normal",
+      "warning": "Watch",
+      "anomaly": "Unusual"
+    },
+    "leak": {
+      "suspectedTitle": "Possible leak / fault",
+      "clearTitle": "No leak signature",
+      "verify": "How to check"
+    },
+    "forecast": {
+      "title": "Next period forecast",
+      "predictedUsage": "Predicted usage",
+      "predictedCost": "Predicted cost",
+      "range": "Range",
+      "method": "Method"
+    },
+    "chartTitle": "Consumption trend",
+    "explain": "Explain with AI",
+    "explanationTitle": "AI explanation",
+    "explainDisabled": "AI explanations are not configured on the server (set an API key to enable).",
+    "recommendations": {
+      "title": "Recommendations",
+      "estSavings": "Est. savings",
+      "perPeriod": "/ period",
+      "category": {
+        "behavioral": "Behavioral",
+        "maintenance": "Maintenance",
+        "upgrade": "Upgrade",
+        "tariff": "Tariff"
+      },
+      "effort": {
+        "low": "Low effort",
+        "medium": "Medium effort",
+        "high": "High effort"
+      }
+    }
+  },
+  "scan": {
+    "hint": "Have the bill? Scan it instead of typing.",
+    "button": "Scan bill",
+    "disabled": "Bill scanning is not set up on the server (Tesseract OCR is missing).",
+    "confidence": {
+      "high": "Scanned — the figures match what we expect. Review and save.",
+      "medium": "Scanned — please double-check the highlighted figures before saving.",
+      "low": "We couldn't read parts of this bill — please fill in the missing fields."
+    }
+  },
+  "report": {
+    "run": "Health report",
+    "needMoreBills": "Add at least 6 bills for this utility to unlock the health report.",
+    "headlineLabel": "Cost of unusual consumption",
+    "headlineCaption": "Money spent above your normal baseline across {{count}} billing periods — spikes your history says you didn't need.",
+    "perYear": "/ year",
+    "floor": {
+      "suspectedTitle": "Your consumption floor is rising",
+      "clearTitle": "Consumption floor is stable",
+      "priorFloor": "Previous lowest month",
+      "recentFloor": "Recent lowest month"
+    },
+    "baseLoad": {
+      "title": "Always-on base load",
+      "monthly": "Est. monthly base load",
+      "cost": "Cost per month",
+      "share": "Share of your usage",
+      "hint": "Estimated from your three lowest months — what your home consumes before anyone flips a switch."
+    },
+    "slab": {
+      "title": "Tariff slab position",
+      "marginalRate": "Your marginal rate",
+      "baisaPerKwh": "baisa / kWh",
+      "gap": "Distance to next slab",
+      "topSlab": "Top slab"
+    },
+    "timeline": {
+      "title": "Unusual periods in your history",
+      "empty": "No unusual periods found — your consumption has been consistent.",
+      "excess": "Excess cost"
+    }
+  }
+}
